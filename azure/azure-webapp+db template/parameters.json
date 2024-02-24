@@ -1,0 +1,126 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "subscriptionId": {
+            "value": "b9267e3d-7876-4d8f-8001-8faad3e8a372"
+        },
+        "name": {
+            "value": "webapp343434"
+        },
+        "location": {
+            "value": "East US"
+        },
+        "hostingPlanName": {
+            "value": "ASP-webappRG-850b"
+        },
+        "serverFarmResourceGroup": {
+            "value": "webappRG"
+        },
+        "databaseName": {
+            "value": "webapp343434-database"
+        },
+        "ftpsState": {
+            "value": "FtpsOnly"
+        },
+        "sku": {
+            "value": "Basic"
+        },
+        "skuCode": {
+            "value": "B1"
+        },
+        "workerSize": {
+            "value": ""
+        },
+        "workerSizeId": {
+            "value": ""
+        },
+        "numberOfWorkers": {
+            "value": "1"
+        },
+        "linuxFxVersion": {
+            "value": "PYTHON|3.10"
+        },
+        "storageSizeMB": {
+            "value": 131072
+        },
+        "haEnabled": {
+            "value": "Disabled"
+        },
+        "availabilityZone": {
+            "value": ""
+        },
+        "backupRetentionDays": {
+            "value": 7
+        },
+        "geoRedundantBackup": {
+            "value": "Disabled"
+        },
+        "postgreServerSkuName": {
+            "value": "Standard_B1ms"
+        },
+        "serverEdition": {
+            "value": "Burstable"
+        },
+        "serverName": {
+            "value": "webapp343434-server"
+        },
+        "serverUsername": {
+            "value": "qbsgwztnpl"
+        },
+        "serverPassword": {
+            "value": null
+        },
+        "publicNetworkAccess": {
+            "value": "Disabled"
+        },
+        "collation": {
+            "value": "en_US.utf8"
+        },
+        "charset": {
+            "value": "utf8"
+        },
+        "vnetName": {
+            "value": "webapp343434Vnet"
+        },
+        "privateEndpointSubnet": {
+            "value": "webapp343434Subnet"
+        },
+        "subnetForApp": {
+            "value": "webapp343434AppSubnet"
+        },
+        "subnetForDb": {
+            "value": "webapp343434DbSubnet"
+        },
+        "privateEndpointNameForApp": {
+            "value": "webapp343434AppEndpoint"
+        },
+        "privateEndpointNameForDb": {
+            "value": ""
+        },
+        "privateEndpointNameForCache": {
+            "value": "webapp343434-cache-privateEndpoint"
+        },
+        "privateDnsZoneNameForApp": {
+            "value": "privatelink.azurewebsites.net"
+        },
+        "privateDnsZoneNameForDb": {
+            "value": "privatelink.postgres.database.azure.com"
+        },
+        "privateDnsZoneNameForCache": {
+            "value": "privatelink.redis.cache.windows.net"
+        },
+        "isVnetEnabled": {
+            "value": true
+        },
+        "isPrivateEndpointForAppEnabled": {
+            "value": false
+        },
+        "isCacheEnabled": {
+            "value": false
+        },
+        "cacheName": {
+            "value": "webapp343434-cache"
+        }
+    }
+}
